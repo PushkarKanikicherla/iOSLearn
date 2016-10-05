@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "736EB2A31DA56ED500039B33"
+               BlueprintIdentifier = "736EB2DD1DA56F1900039B33"
                BuildableName = "MiraclePill.app"
                BlueprintName = "MiraclePill"
                ReferencedContainer = "container:MiraclePill.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "736EB2B71DA56ED500039B33"
+               BlueprintIdentifier = "736EB2F11DA56F1900039B33"
                BuildableName = "MiraclePillTests.xctest"
                BlueprintName = "MiraclePillTests"
                ReferencedContainer = "container:MiraclePill.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "736EB2C21DA56ED500039B33"
+               BlueprintIdentifier = "736EB2FC1DA56F1900039B33"
                BuildableName = "MiraclePillUITests.xctest"
                BlueprintName = "MiraclePillUITests"
                ReferencedContainer = "container:MiraclePill.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "736EB2A31DA56ED500039B33"
+            BlueprintIdentifier = "736EB2DD1DA56F1900039B33"
             BuildableName = "MiraclePill.app"
             BlueprintName = "MiraclePill"
             ReferencedContainer = "container:MiraclePill.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "736EB2A31DA56ED500039B33"
+            BlueprintIdentifier = "736EB2DD1DA56F1900039B33"
             BuildableName = "MiraclePill.app"
             BlueprintName = "MiraclePill"
             ReferencedContainer = "container:MiraclePill.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "736EB2A31DA56ED500039B33"
+            BlueprintIdentifier = "736EB2DD1DA56F1900039B33"
             BuildableName = "MiraclePill.app"
             BlueprintName = "MiraclePill"
             ReferencedContainer = "container:MiraclePill.xcodeproj">
