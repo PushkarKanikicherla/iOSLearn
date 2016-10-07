@@ -12,11 +12,19 @@ class ViewController: UIViewController,  UIPickerViewDelegate, UIPickerViewDataS
 
     @IBOutlet weak var statePicketBtn: UIButton!
     @IBOutlet weak var statePicker: UIPickerView!
+    
+    @IBOutlet weak var countryTxt: UILabel!
+    
+    @IBOutlet weak var countryTxtField: UITextField!
+    
+    @IBOutlet weak var successImg: UIImageView!
+    
     let states = ["Alaska", "Arkansas", "Alabama", "California", "New York", "Iowa"]
     override func viewDidLoad() {
         super.viewDidLoad()
         statePicker.dataSource = self
         statePicker.delegate = self
+        successImg.isHidden = true
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -25,8 +33,14 @@ class ViewController: UIViewController,  UIPickerViewDelegate, UIPickerViewDataS
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buyNow(_ sender: AnyObject) {
+        successImg.isHidden = false
+        
+    }
    @IBAction func stateBtnpressed(_ sender: AnyObject) {
     statePicker.isHidden = false
+    countryTxt.isHidden = true
+    countryTxtField.isHidden = true
     }
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
